@@ -36,11 +36,15 @@ export default {
       default() {
         return {};
       }
+    },
+    initialIndex: {
+      type: Number,
+      default: 0
     }
   },
   data() {
     return {
-      index: 0,
+      index: this.initialIndex,
       slideOptions: {
         listenScroll: true,
         probeType: 3,
