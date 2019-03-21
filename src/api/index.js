@@ -9,3 +9,4 @@ export{
     getGoods,
     getRatings
 }
+ 
